@@ -2,14 +2,14 @@
 #set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Author 	: 	DarkXero
-# Website 	: 	http://xerolinux.github.io
+# Author    :   DarkXero
+# Website   :   http://xerolinux.github.io
 ##################################################################################################################
-
-repoctl update -P xero_repo
 
 cd x86_64
 sh ./update_repo.sh
+cd ..
+git add x86_64/*
 
 echo "################################################################"
 echo "###################    Update Done        ######################"
