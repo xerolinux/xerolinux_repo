@@ -6,6 +6,8 @@
 # Website 	: 	http://xerolinux.github.io
 ##################################################################################################################
 
+repoctl update -P xero_repo
+
 cd x86_64
 sh ./update_repo.sh
 
