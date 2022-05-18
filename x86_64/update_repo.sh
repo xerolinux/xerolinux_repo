@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repoctl update -P xero_repo
+repoctl update -P xerolinux_repo
 
 echo "####################################"
 echo "Repo Updated!!"
